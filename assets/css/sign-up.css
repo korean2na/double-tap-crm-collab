@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 25px;
+    margin: 50px auto;
+}
+
+@media (max-width: 1400px) {
+    .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 50px 0;
+    }
+}
+
+/* START OF HERO-LEFT */
+.hero-left {
+    height: 825px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-left h1 {
+    margin: 0px;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+@media (max-width: 500px) {
+    .hero-left {
+        max-width: 100%;
+    }
+
+    .hero-left h1 {
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+/* START OF FORMS */
+.forms {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-box i {
+    position: absolute;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 18px 15px;
+}
+
+#username,
+#email,
+#password {
+    font-size: 26px;
+    padding: 10px 20px 10px 50px;
+    border-radius: 30px;
+    border-color: rgb(112, 112, 112);
+}
+
+@media (max-width: 500px) {
+    .form-box {
+        padding: 0 15px;
+    }
+}
+/* END OF FORMS */
+
+/* START OF LEFT-BOTTOM */
+.hero-left-bottom {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-blue {
+    text-decoration: none;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(8, 80, 248);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.btn-blue:hover {
+    color: yellow;
+}
+
+.hero-left p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.social-buttons {
+    width: 350px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-social {
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border-color: rgb(112, 112, 112);
+    font-size: 30px;
+}
+
+.icon-social {
+    color: black;
+}
+
+.btn-social:hover .icon-social {
+    color: yellow;  
+}
+
+.social-buttons .btn:hover {
+    background-color: rgb(8, 80, 248);
+}
+/* END OF LEFT-BOTTOM */
+/* END OF HERO-LEFT */
+
+/* START OF HERO-RIGHT */
+.hero-right img {
+    width: 1000px;
+}
+
+@media (max-width: 1400px) {
+    .hero-right img {
+        max-width: 100%;
+        padding: 0 25px 50px;
+    }
+}
+/* START OF HERO-RIGHT */
