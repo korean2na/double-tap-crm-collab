@@ -2,7 +2,234 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
+
+/* 1550 x 2270 */
+
+.land {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1400px;
+    height: 2400px;
+    margin: 0 auto;
+}
+
+/* START TOP OF LANDING */
+.land-top {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.land-top hr {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+
+.land-top h2 {
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+
+.land-top p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 175px;
+    padding-bottom: 50px;
+}
+
+.land-top-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.land-top-btn {
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.land-top-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    line-height: 60px;
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.land-top-btn p {
+    font-size: 20px;
+    margin: 30px auto 0;
+    padding: 0;
+    color: black;
+}
+
+.land-top-buttons .btn:hover {
+    background-color: rgb(8, 80, 248);
+}
+
+.land-top-btn:hover p {
+    color: white;
+}
+/* END TOP OF LANDING */
+
+/* START MID OF LANDING */
+.land-mid {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 25px;
+}
+
+.land-hero {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-right: 5px solid rgb(112, 112, 112);
+}
+
+.land-mid img {
+    padding: 0 10px;
+}
+
+.land-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 125px;
+    color: white;
+    background-color: rgb(8, 80, 248);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.land-hero-text h2,
+.land-hero-text p {
+    margin: 0;
+    font-weight: bolder;
+}
+
+.land-hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.land-btn-learn {
+    display: block;
+    width: 300px;
+    height: 60px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 54px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.land-btn-learn i {
+    padding-left: 55px;
+    padding-right: 15px;
+}
+
+.land-btn-learn:hover {
+    color: yellow;
+}
+/* END MID OF LANDING */
+
+/* START BOT OF LANDING */
+.land-bot {
+    text-align: center;
+}
+
+.land-bot .col-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.land-bot .p-3 {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.land-bot-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 50%;
+    background-color: rgb(229, 239, 255);
+    margin: 0 auto 25px;
+}
+
+.land-bot-icon-box i {
+    font-size: 80px;
+    color: rgb(8, 80, 248);
+}
+
+.land-bot h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.land-bot p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.land-bot .land-btn-learn {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 44px;
+    color: black;
+    border: 3px solid rgb(112, 112, 112);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.land-bot .land-btn-learn i {
+    padding-left: 35px;
+    padding-right: 5px;
+}
+
+.land-bot .land-btn-learn:hover {
+    background-color: rgb(8, 80, 248);
+    color: yellow;
+}
+/* END BOT OF LANDING */
