@@ -1,4 +1,3 @@
-700
 Double Tap HTML/CSS Project
 Team Members:
 -Lucas Leung
