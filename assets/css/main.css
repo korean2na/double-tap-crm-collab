@@ -89,9 +89,9 @@ body {
 .land-top-btn:hover p {
     color: white;
 }
-/* END TOP OF LANDING */
+/* END TOP OF LANDING (JOHN) */
 
-/* START MID OF LANDING */
+/* START MID OF LANDING (JOHN) */
 .land-mid {
     display: flex;
     align-items: center;
@@ -163,9 +163,9 @@ body {
 .land-btn-learn:hover {
     color: yellow;
 }
-/* END MID OF LANDING */
+/* END MID OF LANDING (JOHN) */
 
-/* START BOT OF LANDING */
+/* START BOT OF LANDING (JOHN) */
 .land-bot {
     text-align: center;
 }
@@ -232,4 +232,11 @@ body {
     background-color: rgb(8, 80, 248);
     color: yellow;
 }
-/* END BOT OF LANDING */
+/* END BOT OF LANDING (JOHN) */
+
+/* START OF FOOTER (LUCAS) */
+.btn-chat {
+    color: rgb(8, 80, 248);
+    background-color: white;
+}
+/* START OF FOOTER (LUCAS) */
